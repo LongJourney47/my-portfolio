@@ -1,0 +1,39 @@
+# Build output
+.next/
+out/
+
+# Dependencies
+node_modules/
+
+# Cache
+.eslintcache
+
+# Config files (often have specific formatting requirements)
+next.config.js
+.eslintrc.json
+.prettierrc
+vercel.json
+
+# Package manager files
+package-lock.json
+yarn.lock
+
+# Public assets
+public/
+
+# Generated files
+*.generated.js
+*.generated.ts
+
+# Markdown files (optional, depending on your preference)
+*.md
+
+# Service worker
+service-worker.js
+
+# Environment variables
+.env*.local
+
+# IDE files
+.vscode/
+.idea/
