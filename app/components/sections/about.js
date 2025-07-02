@@ -1,7 +1,10 @@
 'user client';
 export default function About() {
   return (
-    <section className="flex flex-col justify-between px-15 text-[#D9D9D9]/80 h-full text-xl m-">
+    <section
+      id="about"
+      className="scroll-pt-[20%] flex flex-col justify-between px-15 text-[#D9D9D9]/80 text-xl h-[35rem] "
+    >
       <p>
         I am an ambitious developer that is always eager to consume more knowledge concerning the
         intricacies of how things work too crafting worth while experiences that can assist in
